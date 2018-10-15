@@ -5,11 +5,12 @@ jQuery(function($) {
 	var owlPricing;
 	var ratio = 2;
 
-	$( "#hidden" ).click(function() {
-  alert( "Made by Gupta & Dudeja. Signing Out." );
-});
-
-
+	$(function(){
+		var text = $("#formg");
+		text.click(function(){
+			text.animate({"font-weight": "bold"}, 600).delay(200).animate({"font-weight": "normal"}, 600);
+		})
+	})
 
 	// Window Load
 	$(window).load(function() {
