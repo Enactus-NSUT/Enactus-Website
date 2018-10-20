@@ -1,7 +1,7 @@
 jQuery(function($) {
 	"use strict";
 	// Author Code Here
-
+	
 	var owlPricing;
 	var ratio = 2;
 
@@ -137,7 +137,6 @@ jQuery(function($) {
 		$('.mobile-nav').removeClass('active');
 		event.preventDefault();
 	});
-
 	$('body').on('click', 'nav.original .navbar-nav a:not([data-toggle])', function() {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 			event.stopPropagation();
@@ -164,7 +163,9 @@ jQuery(function($) {
 		if (offset < bottomMargin) offset = bottomMargin;
 		$dialog.css("margin-top", offset);
 	}
-
+	$('.lol').click(function(event){
+		alert("You are lucky to witness the hardwork put up by Raghav And Abhishek");
+	});
 	$('.modal').on('show.bs.modal', centerModal);
 
 	$('.modal-popup .close-link').click(function(event){

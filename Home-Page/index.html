@@ -97,7 +97,7 @@
                 <a class="navbar-brand" href="#"><img style="height:95px; width:150px; margin-top:-25px;" src="img/Enactus NSIT Logo White.png"
                         data-active-url="img/Enactus NSIT Logo Black.png" alt=""></a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <!-- <button style="color:white; margin-left:350px; background-color: white; border:none;" id="hidden">Hullo</button> -->
                 <ul class="nav navbar-nav navbar-right main-nav">
 
@@ -198,7 +198,42 @@
             </div>
         </div>
     </section>
+    <!-- <section style="margin-bottom:100px;"> 
+        <div class="container"> 
+            <div class="row">
+        <div class = "counter">
+        <div class="counter-value col-md-4">0
+              <i class="fa fa-code fa-2x"></i>
+              <h2 class="timer count-title count-number" data-count="300"></h2>
+              <p class="count-text ">Beneficiaries</p>
+        </div>
+    </div>
 
+        <div class="counter col-md-4">
+              <i class="fa fa-coffee fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="1700" data-speed="2500"></h2>
+              <p class="count-text ">Revenue</p>
+        </div>
+
+        <div class="counter col-md-4">
+              <i class="fa fa-lightbulb-o fa-2x"></i>
+              <h2 class="timer count-title count-number" data-to="11900" data-speed="2500"></h2>
+              <p class="count-text ">Families Impacted</p>
+        </div>
+    </div>
+    </div>
+    </section> -->
+    <section style="margin-bottom:100px;">
+    <div class="grey-bg c-no container-fluid">
+        <div class="container">
+            <div class="row" id="counter">
+                <div class="col-sm-4 counter-Txt"><span class="counter-value" data-count="100">0</span><p class="count-text">Beneficiaries</p></div>
+                <div class="col-sm-4 counter-Txt"><span class="counter-value" data-count="25000">0</span><p class="count-text">Revenue</p></div>
+                <div class="col-sm-4 counter-Txt margin-bot-35"><span class="counter-value" data-count="150">0</span><p class="count-text">Families Impacted</p></div>
+            </div>
+        </div>
+    </div>
+    </section>
     <section id="services" class="section section-padded">
         <div class="container" style="background-image: url('img/pg.jpg');">
             <div class="row text-center title">
@@ -436,7 +471,7 @@
 
         </div>
         <div>
-            <button onClick="lol()" style="background-color:#2C2A43;border:none" />
+            <button class="lol" style="background-color:#2C2A43;border:none" />
         </div>
     </footer>
 
@@ -454,10 +489,10 @@
     <script src="js/typewriter.js"></script>
     <script src="js/jquery.onepagenav.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        function lol() {
-            alert("You are lucky to witness the hardwork put up by Raghav And Abhishek");
-        }
+    <script src="js/counter.js"></script>
+    <script src="js/counter1.js"></script>
+    <script type="text/javascript">
+        
     </script>
 </body>
 
