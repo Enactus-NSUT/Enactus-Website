@@ -93,7 +93,7 @@ ul.white-list {
 }
 
 ul.white-list li {
-	font-size: 18px;
+	font-size: 12px;
 	margin: 10px 0;
 	color: #fff;
 }
@@ -513,10 +513,13 @@ section {
 }
 
 .service:hover {
-	border-color: #00a8ff;
+	border-color: #000000;
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
 }
 #newproject:hover{
-	border-color: #00a8ff;
+	border-color: #000000;
 }
 
 .service:hover .icon-holder {
@@ -525,7 +528,7 @@ section {
 
 .service .description {
 	width:90%;
-	margin: 0 auto;
+	margin: 25px 25px;
 }
 
 
@@ -1047,6 +1050,10 @@ footer .social-footer li:hover a {
 
 .margin-top {
 	margin-top: 150px;
+}
+
+.formg:hover{
+	font-size: 30px;
 }
 
 @media(max-width:992px) {
