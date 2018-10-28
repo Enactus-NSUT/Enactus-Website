@@ -50,7 +50,14 @@
                 font-size: 95%;
             }
         }
-        
+        @media(min-width:320px) and (max-width:767px){
+            #welcome{
+                font-size: 55px;
+            }
+            #int{
+                margin-top: 65px;
+            }
+        }
     </style>
 
 </head>
@@ -90,8 +97,8 @@
             <div class="row">
                 <div class="table">
                     <div class="col-xs-12 text-center" style="padding-left: 1px;">
-                        <h1 style="-webkit-text-stroke: 1px #000000; font-size:90px; margin-top: 305px; text-align: center;"
-                            class="white">Welcome to
+                        <h1 style="-webkit-text-stroke: 1px #000000;margin-top: 205px; text-align: center;"
+                            class="shadow-lg white" id="welcome">Welcome to
                             Enactus NSUT
                         </h1>
                         <h1 id="intro" style="-webkit-text-stroke: 1px #000000; margin-left: 5%;" class="shadow-lg bold yellow typed">Human progress is the business we deal in</h1>
@@ -105,7 +112,7 @@
     <section>
         <div class="cut cut-top"></div>
         <div class="container">
-            <div class="row intro-tables">
+            <div class="row intro-tables" id="int">
                 <div class="col-md-4">
                     <div class="intro-table intro-table-third">
                         <h5 class="white heading">What is Enactus?</h5>
@@ -300,7 +307,7 @@
                 </div></a>
         </div>
         </div>
-        <div class="cut cut-bottom"></div>
+        
     </section>
 
     <section style = "margin-top: -50px;">
@@ -338,7 +345,7 @@ class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe
                 <h2 class="margin-top">Our Team</h2>
                 <h4 class="light muted">Because teamwork makes the dream work!</h4>
             </div>
-            <div class="row">
+            <div class="row" style = "margin-right:0px;margin-left:0px;">
                 <div class="col-md-4">
                     <div class="team text-center">
                         <div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
@@ -349,7 +356,9 @@ class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe
                             <h5 class="muted regular"><b>President</b></h5>
                             <h5 class="muted regular" style="color: white">President</h5>
                             <a href="https://www.linkedin.com/in/shantanu-prakash-b44150117/"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </div>
+                            
+                        </div><p>Shantanu is a dynamic leader, actively involved in finance, economics and social entrepreneurship
+</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -361,7 +370,8 @@ class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe
                             <h5 class="muted regular"><b>Vice President</b></h5>
                             <h5 class="muted regular">Finance & Operations</h5>
                             <a href="https://www.linkedin.com/in/divya-sharma-19124a118/"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </div>
+                            
+                        </div><p>With a background in Electronics & Communication, Divya is finance enthusiast and a social entrepreneurship afficionado</p>
                     </div>
                 </div>
 
@@ -375,11 +385,12 @@ class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe
                             <h5 class="muted regular"><b>Vice President</b></h5>
                             <h5 class="muted regular">Technical & Administration</h5>
                              <a href="https://www.linkedin.com/in/shivam362/"><i class="fa fa-linkedin fa-2x"></i></a>
-                        </div>
+                             
+                        </div><p style="padding:2px; margin-bottom:35px;">Shivam is an avid coder and developer with a flair for technology in entrepreneurship</p>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row" style = "margin-right:0px;margin-left:0px;">
                     <div class="col-md-4">
                         <div class="team text-center">
                             <div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
@@ -393,7 +404,8 @@ class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe
                                 <h5 class="muted regular">Projects & External Affairs</h5>
                                   <h5 class="muted regular">Technical & Administration</h5>
                              <a href="https://www.linkedin.com/in/anshul-gupta-b84823100/"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </div>
+                             
+                            </div><p>Heading the projects department and international collaboration, Anshul is an enactor driven by impact and success</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -406,7 +418,8 @@ class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe
                                 <h5 class="muted regular">Internal Affairs</h5>
                                   <h5 class="muted regular">Technical & Administration</h5>
                              <a href="https://www.linkedin.com/in/anirudhvaid/"><i class="fa fa-linkedin fa-2x"></i></a>
-                            </div>
+                             
+                            </div><p>Anirudh is a jack of all trades, working towards core electronics, philosophy and coding besides Enactus</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -420,6 +433,7 @@ class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe
                                   <h5 class="muted regular">Technical & Administration</h5>
                              <a href="https://www.linkedin.com/in/naman-gangwani-453a6412b/"><i class="fa fa-linkedin fa-2x"></i></a>
                             </div>
+                            <p>Naman is a passionate designer with a creative eye for graphics, video editing and presentations</p>
                         </div>
                     </div>
                 </div>
