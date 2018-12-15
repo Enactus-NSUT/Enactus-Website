@@ -533,7 +533,14 @@ section {
 	margin: 25px 25px;
 }
 
-
+.new,.new:focus,.new.focus,.new:hover,.new:visited,.new:link,.new:active,
+.new.active,
+.open > .dropdown-toggle.new{
+	border: 0px;
+	color: #fff;
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+}
 .team {
 	margin: 80px 0;
 	padding-bottom: 10px;
