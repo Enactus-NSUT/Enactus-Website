@@ -21,16 +21,57 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+    <link href="css/lity.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <style>
+      .featured-artworks {
+        padding: 2rem 0;
+        padding-bottom: 4rem;
+      }
+      .featured-artworks h1 {
+        margin-bottom: 1.5rem;
+        position: relative;
+      }
+
+      .featured-artworks h1::after {
+        content: '';
+        top: -3.2rem;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: rgba(0,0,0,0.1);
+      }
+
+      .featured-artworks .card{
+        border: none;
+        font-family: Nunito;
+        font-size: 1.3rem;
+        background: transparent;
+        margin-top: 2rem;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+      }
+
+      .featured-artworks .card i{
+        font-size: 1.2rem;
+      }
+
+      .featured-artworks .card img {
+        box-shadow: 0 0 7px rgba(0,0,0,0.1);
+      }
+      #mainNav.navbar-shrink {
+        box-shadow: 0 2px 9px rgba(0,0,0,0.3);
+      }
+    </style>
 
   </head>
 
   <body id="page-top">
 
      <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"  id="mainNav">
       <div class="container">
 
         <a class="navbar-brand js-scroll-trigger" href="../../index.html"><img height="20%" width="80px" src="img/Enactus NSIT Logo Black.png"/></a>
@@ -75,7 +116,12 @@
 	
           </div>
         </div>
-        <img src="https://c1.staticflickr.com/1/107/306564541_5249a67f89_b.jpg" class="img-fluid" alt="" style = "min-height: 450px; max-width: 400px">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <img src="./img/about-img.jpg" class="img-fluid" alt="Enactus NSUT project Kitabat">
+          </div>
+        </div>
+        
       </div>
        <br><BR>
     </section>
@@ -93,7 +139,7 @@
             <div class="featured-text text-center text-lg-left">
               <h2>Business Model</h2>
               <p class="text-black-50 mb-0">
-                On the first front, team Kitabat increases our calligraphers’ income by selling their products through an e-commerce website. We have handles on all social media platforms that look after the digital promotions. Simultaneously, we organise paid workshops for enthusiasts who want to learn and pursue calligraphy. Tutorials regarding the same are also available online for subscribed users. We have also collaborated with nearby ‘Madrasah’ or Islamic schools where the katibs teach the artform to the young generation. This is instrumental in reviving the dying artform. 
+                We have developed a two component business model to run this project .The first aims to increase the revenue of the people who are currently practicing kitabat professionally. We do this by setting up stalls at various universities and other cultural festivals across the city, online sales and door to door sales as well. The second component of this project aims to encourage new people to learn and appreciate this art form. This is achieved by conducting various paid and unpaid workshops across the country, collaborating with various government organisations and NGO's. Currently, we are in collaboration with Purani Dilli Walon Ki Baatein- an NGO that aims to preserve Old Delhi's rich Culture. 
               </p>
             </div>
           </div>
@@ -123,24 +169,140 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+            <img class="img-fluid" src="img/impact-img.jpg" alt="">
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-right">
                   <h2 id="impact" class="text-white mb-1" style=" font-size: 250%;">Impact</h2>
-                  <p class="mb-0 text-white-50">To revive the art, the Indian government has established its own institutional framework for the development of the Urdu language, the National Council for Promotion of Urdu Language (NCPUL). Project Kitabat’s collaboration with NCPUL and the Urdu Academy independent workshops organised have increased our beneficiary count from 5 to 37. Direct selling of the products made by our calligraphers have increased their monthly revenue two folds. We now have a proper distribution channel for getting orders and delivery of products catering to 100+ customers each day.
+                  <p class="mb-0 text-white-50">Our project since it's inception in August 2018 has got recognition from various big media houses such as The Times of India,TRT World, Doordarshan etc. Many notable personalities like PM Modi, Vice President Venkaiah Naidu and CM Kejriwal also appreciated us for our work . We have also received appreciations from international calligraphers including Qamar Dagar who is our project mentor. Over the span of one year, we've successfully impacted the lives of 5 Katibs and scores of people who were a part of our workshops or associated with us in any other way. We wish to continue with the good work and achieve our vision of bringing back Kitabat into the mainstream.
+
+
 					</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
                 </div>
               </div>
             </div>
+            
           </div>
+         
         </div>
 
       </div>
+      
     </section>
+
+
+    <section class="featured-artworks text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12"><h1>Artworks For Sale</h1></div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <a href="./img/artworks/1.jpg" data-lity  ><img src="./img/artworks/resized/1.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 500</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <a href="./img/artworks/2.jpg" data-lity  ><img src="./img/artworks/resized/2.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>            
+              
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 500</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+             <a href="./img/artworks/3.jpg" data-lity  ><img src="./img/artworks/resized/3.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 500</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+             <a href="./img/artworks/4.jpg" data-lity  ><img src="./img/artworks/resized/4.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 500</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card">
+             <a href="./img/artworks/5.jpg" data-lity  ><img src="./img/artworks/resized/5.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 600</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+             <a href="./img/artworks/6.jpg" data-lity  ><img src="./img/artworks/resized/6.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 600</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+             <a href="./img/artworks/7.jpg" data-lity  ><img src="./img/artworks/resized/7.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 2000</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card">
+             <a href="./img/artworks/8.jpg" data-lity  ><img src="./img/artworks/resized/8.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 1000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+             <a href="./img/artworks/9.jpg" data-lity  ><img src="./img/artworks/resized/9.jpg" class="img-fluid card-img-top" alt="Artworks for sale Enactus NSUT Kitabat"></a>
+            
+              <div class="card-body">
+                <p class="card-text"><i class="fa fa-rupee-sign"></i> 2000</p>
+              </div>
+            </div>
+          </div>
+
+
+        
+          
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
 
     <!-- Signup Section 
     <section id="signup" class="signup-section">
@@ -225,7 +387,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+    <script src="js/lity.min.js"></script>
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
 
